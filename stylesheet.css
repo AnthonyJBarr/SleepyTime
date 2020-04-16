@@ -1,0 +1,78 @@
+/* ============ MAIN ============ */
+* { /* Everything is affected by these */
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  max-width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  /*overflow-y: hidden;*/ /* Hides navbar scroll */
+}
+
+/* ============ IMAGES ============ */
+#bed{
+  background-image: url('bed.png');
+  background-size: cover;
+  height: 25rem;
+
+}
+/* Image moves when scrolling */
+#parallax {
+  background: url('dream.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 24rem;
+
+}
+
+/* ============ TEXTS ============ */
+p.TEXTS{
+  position: absolute;
+  left: 40%;
+}
+.product{
+  top: 90%;
+
+}
+.productdesc{
+  top: 95%;
+
+}
+.hook{
+  bottom: 50%;
+}
+/* ============ Header ============ */
+
+#nav{
+  font-weight: lighter;
+  position: fixed;
+  background-color: gray;
+  left: 92%;
+}
+#nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+#nav li{
+  display: flex;
+  padding: 5px;
+}
+#nav a{
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: blue;
+
+}
+#nav a:hover{
+  color: orange;
+  cursor: pointer;
+}
+/* ============ Footer ============ */
+#footer{
+}
+#footer ul{
+}
+#footer ul li{
+}
+#footer ul li a{
+}
